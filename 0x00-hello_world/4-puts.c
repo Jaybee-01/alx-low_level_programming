@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *Description: main prints out a string to the stout
+ *Description: main- prints out a string to the stout.
  *Return: 0 if success
  */
 int main(void)
