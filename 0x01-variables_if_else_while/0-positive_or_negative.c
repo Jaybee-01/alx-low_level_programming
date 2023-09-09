@@ -3,9 +3,9 @@
 #include <stdlib.h>
 /**
  *main: main block
- *Description: gets and check number
- *if its positive or not
- *return 0 always
+ *Description: gets a random number and prints the number
+ *and if its positive, Negative or zero
+ *Return: 0 always
  */
 int main(void)
 {
