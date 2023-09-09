@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- *main - The block
- *Desreiption: Get random num and prints
- *if its possitive or negative or zero
- *return: 0 Always
+ *main - this the main block
+ *Description: check and prints number
+ *that is either positive or negative
+ *Return: 0 always
  */
 int main(void)
 {
@@ -14,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-	printf("%1 is possitve\n", n)
+	printf("%i is possitve\n", n);
 	}
 	else if (n < 0)
 	{
-	printf("%i is negative\n", n)
+	printf("%i is negative\n", n);
 	}
 	else
 	{
-	printf("%i is zero\n", n)
+	printf("%i is zero\n", n);
 	}
 	return (0);
 }
