@@ -10,8 +10,9 @@ char c = 'a';
 
 while (c <= 'z')
 {
-putchar("\n", c);
+putchar(c);
 c++;
 }
+_putchar('\n');
 return;
 }
