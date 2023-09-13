@@ -4,14 +4,14 @@
  *Description: function that prints the alphabet, in lowercase.
  *Return: 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-char = 'c';
+char c = 'a';
 
 while (c <= 'z')
 {
-printf("\n", c );
+putchar(c);
 c++;
 }
-return print_alphabet;
+return;
 }
