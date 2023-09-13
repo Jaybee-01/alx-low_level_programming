@@ -2,7 +2,7 @@
 /**
  *_abs - functions that computes the value of an integer
  *@x: the input nu,ber to check
- *retunr: 0
+ *Return: 0
  */
 int _abs(int x)
 {
