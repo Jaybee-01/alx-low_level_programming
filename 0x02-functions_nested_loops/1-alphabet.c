@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *main - entry Point
  *print_alphabet - functions helps to prints the alphabe, in lowercase.
  *
  *Return: 0
