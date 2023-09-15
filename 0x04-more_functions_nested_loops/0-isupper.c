@@ -11,8 +11,8 @@ int main(void)
 char c;
 
 c = 'A';
-putchar("%c: %d\n", c, _isupper(c));
+_putchar("%c: %d\n", c, _isupper(c));
 c = 'a';
-putchar("%c: %d\n", c, _isupper(c));
+_putchar("%c: %d\n", c, _isupper(c));
 return (0);
 }
