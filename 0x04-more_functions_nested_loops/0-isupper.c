@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char c;
+char* c;
 
 c = 'A';
 putchar("%c: %d\n", c, _isupper(c));
