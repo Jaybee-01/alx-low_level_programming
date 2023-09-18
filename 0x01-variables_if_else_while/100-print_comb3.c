@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = '0'; n < '9'; n++)
 	{
-		for (n1 = '0'; n1 <= '9'; n1++)
+		for (n1 = '1'; n1 <= '9'; n1++)
 		{
 			if (n == '0' && n1 == '1')
 				continue;
@@ -31,8 +31,6 @@ int main(void)
 				continue;
 			putchar(n);
 			putchar(n1);
-			if (n == '8' && n1 < '9')
-				break;
 			putchar(',');
 			putchar(' ');
 		}
