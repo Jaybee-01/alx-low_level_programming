@@ -1,2 +1,0 @@
-#include <stdio.h>
-echo '#include <stdio.h>' > $1 && vi $1 && chmod u+x $1

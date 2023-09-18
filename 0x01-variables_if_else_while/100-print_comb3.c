@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = '0'; n < '9'; n++)
 	{
-		for (n1 = '1'; n1 <= '9'; n1++)
+		for (n1 = '0'; n1 < '9'; n1++)
 		{
 			if (n == '0' && n1 == '1')
 				continue;
@@ -38,17 +38,17 @@ int main(void)
 			if (n1 == '3' && n == '2')
 				break;
 			if (n1 == '4' && n == '3')
-                                break;
+				break;
 			if (n1 == '5' && n == '4')
-                                break;
+				break;
 			if (n1 == '6' && n == '5')
-                                break;
+				break;
 			if (n1 == '7' && n == '6')
-                                break;
+				break;
 			if (n1 == '8' && n == '7')
-                                break;
+				break;
 			if (n1 == '9' && n == '8')
-                                break;
+				break;
 			putchar(',');
 			putchar(' ');
 		}
