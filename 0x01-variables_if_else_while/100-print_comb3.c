@@ -31,6 +31,24 @@ int main(void)
 				continue;
 			putchar(n);
 			putchar(n1);
+			if (n1 == '1' && n == '0')
+				break;
+			if (n1 == '2' && n == '1')
+				break;
+			if (n1 == '3' && n == '2')
+				break;
+			if (n1 == '4' && n == '3')
+                                break;
+			if (n1 == '5' && n == '4')
+                                break;
+			if (n1 == '6' && n == '5')
+                                break;
+			if (n1 == '7' && n == '6')
+                                break;
+			if (n1 == '8' && n == '7')
+                                break;
+			if (n1 == '9' && n == '8')
+                                break;
 			putchar(',');
 			putchar(' ');
 		}
