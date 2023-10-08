@@ -4,11 +4,11 @@
 
 /**
  * main - program that prints a function
- * @argc: integer that counts
- * @argv: string that accepts a function
+ * @argc: number of argument 
+ * @argv: list of argumentt
  * Return: 0
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", *argv);
 
