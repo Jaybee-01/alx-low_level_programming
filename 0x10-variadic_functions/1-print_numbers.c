@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 /**
- *
- *
- *
+ * print_numbers - print all numbers
+ * @separator: pointer to the parameter
+ * @n: the parameter
  *
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
