@@ -5,12 +5,23 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: All prototypes used in the singly linked directory
+ * are contained here and is part of the necessities for succesfull
+ * program compilation.*
+ *
+ */
 
 typedef struct list_s
 {
-    char *str;
-    unsigned int len;
-    struct list_s *next;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
 } list_t;
 
 
