@@ -44,9 +44,10 @@ void close_elf(int elf)
 int main(__silent int argc, char *argv[])
 {
 	Elf64_Ehdr *header;
-	int s, r;
-
+	int o = 0;
+	int r, s[1];	
 	s = open(argv[1], O_RDONLY);
+
 	if (o == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read file %s\n", argv[1]);
