@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "main.h"
+
 /**
  *print_last_digit - function that prints last digit
  *@n: the inpuit number to check
@@ -6,9 +8,8 @@
  */
 int print_last_digit(int n)
 {
-	int last;
+	int last = n % 10;
 
-	last = n % 10;
 	if (last < 0)
 		last = last * -1;
 	putchar(last + '0');
