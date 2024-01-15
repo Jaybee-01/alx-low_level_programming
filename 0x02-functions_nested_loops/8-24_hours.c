@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * void jack_bauer -  function returns hours and minutes
+ * return: void
+ */
+
 void jack_bauer(void)
 {
 	int hours, minutes;
