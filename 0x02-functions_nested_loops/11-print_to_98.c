@@ -2,23 +2,25 @@
 #include "main.h"
 
 /**
- * print_to_98 - function that print number
- * @n: integer variaible
- * Return: success
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: the input
  */
+
 void print_to_98(int n)
 {
-	int j = 98;
-	if (n <= 98)
+	int x = 98;
+
+	if (n >= x)
 	{
-		while (n < j)
-			printf("%d, ", n++);
+		while (n > x)
+			printf("%d, ", n--);
 		printf("%d\n", n);
 	}
 	else
 	{
-		while (n > j)
-			printf("%d, ", n--);
+		while (n < x)
+			printf("%d, ", n++);
 		printf("%d\n", n);
 	}
+
 }
