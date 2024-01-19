@@ -2,9 +2,20 @@
 
 void print_to_98(int n)
 {
-	for (n = 0; n <= 98; n++)
-		
-		putchar(n);
+	int j = 98;
 
-	putchar('\n');
+	if (n <= 98)
+	{
+		while (n < x)
+		{
+			printf("%d, ", n++);
+			printf("%d\n", n);
+		}
+	} else {
+	while (n > x)
+	{
+	printf("%d, ", n--);
+printf("%d\n", n);
+	}
+	}
 }
