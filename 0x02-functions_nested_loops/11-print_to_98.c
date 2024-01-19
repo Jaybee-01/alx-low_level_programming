@@ -15,7 +15,8 @@ void print_to_98(int n)
 		while (n < j)
 			printf("%d, ", n++);
 		printf("%d\n", n);
-	} else 
+	}
+       	else 
 	{
 		while (n > j)
 			printf("%d, ", n--);
