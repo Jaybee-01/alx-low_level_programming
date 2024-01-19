@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * print_to_98 - function that print number
- * @j: integer variaible
+ * @n: integer variaible
  * Return: success
  */
 
